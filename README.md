@@ -1,4 +1,4 @@
-# Nefit Easy™ .NET Library
+# Nefit Easy™ .NET Standard Library
 .NET Standard client library for the [Nefit Easy](http://www.nefit.nl/consument/service/easy/easy) smart thermostat.
 
 ## PLEASE READ BEFORE USE!
