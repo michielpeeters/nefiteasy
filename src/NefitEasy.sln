@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NefitEasy", "NefitEasy\NefitEasy.csproj", "{CA557F99-C194-4BA4-95FC-1BB30D55827D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NefitEasy.Extensions", "NefitEasy.Extensions\NefitEasy.Extensions.csproj", "{9BC71494-A8F5-4D7D-B8EF-DE126A2E5B3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA557F99-C194-4BA4-95FC-1BB30D55827D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA557F99-C194-4BA4-95FC-1BB30D55827D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA557F99-C194-4BA4-95FC-1BB30D55827D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA557F99-C194-4BA4-95FC-1BB30D55827D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC71494-A8F5-4D7D-B8EF-DE126A2E5B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC71494-A8F5-4D7D-B8EF-DE126A2E5B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC71494-A8F5-4D7D-B8EF-DE126A2E5B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC71494-A8F5-4D7D-B8EF-DE126A2E5B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {332100B8-2CB9-4FE7-A525-1ABDC7A9C592}
+	EndGlobalSection
+EndGlobal
