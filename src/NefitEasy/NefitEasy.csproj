@@ -2,13 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Michiel Peeters</Authors>
+    <Company>Michiel Peeters</Company>
+    <Description>The dotnetcore/standard NefitEasy library</Description>
+    <Copyright>Copyright 2018 Michiel Peeters</Copyright>
+    <PackageLicenseUrl>https://github.com/michielpeeters/nefiteasy/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/michielpeeters/nefiteasy</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/michielpeeters/nefiteasy</RepositoryUrl>
+    <PackageTags>nefiteasy nefit-easy nefit bosch library dotnet client xmpp</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Matrix.vNext" Version="2.0.1" />
     <PackageReference Include="Matrix.vNext.Extensions" Version="2.0.1" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
 
