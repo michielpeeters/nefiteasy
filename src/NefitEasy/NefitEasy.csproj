@@ -11,6 +11,7 @@
     <PackageProjectUrl>https://github.com/michielpeeters/nefiteasy</PackageProjectUrl>
     <RepositoryUrl>https://github.com/michielpeeters/nefiteasy</RepositoryUrl>
     <PackageTags>nefiteasy nefit-easy nefit bosch library dotnet client xmpp</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
