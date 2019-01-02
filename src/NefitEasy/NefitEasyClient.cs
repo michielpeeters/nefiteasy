@@ -1,4 +1,6 @@
-﻿namespace NefitEasy
+﻿using System.Globalization;
+
+namespace NefitEasy
 {
     using System;
     using System.Collections.Generic;
@@ -271,7 +273,8 @@
                     {
                         if (sample.d != "255-256-65535")
                         {
-                            gasSamples.Add(new GasSample(Convert.ToDateTime(sample.d), sample.hw / 10.0, sample.ch / 10.0, sample.T / 10.0));
+                            var date = DateTime.ParseExact(sample.d, "dd-MM-yyyy", CultureInfo.InvariantCulture);
+                            gasSamples.Add(new GasSample(date, sample.hw / 10.0, sample.ch / 10.0, sample.T / 10.0));
                         }
                         else
                         {
