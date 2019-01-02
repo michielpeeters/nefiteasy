@@ -7,7 +7,7 @@
     <Company>Michiel Peeters</Company>
     <Description>The dotnetcore/standard NefitEasy library</Description>
     <Copyright>Copyright 2018 Michiel Peeters</Copyright>
-    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/michielpeeters/nefiteasy/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/michielpeeters/nefiteasy</PackageProjectUrl>
     <RepositoryUrl>https://github.com/michielpeeters/nefiteasy</RepositoryUrl>
     <PackageTags>nefiteasy nefit-easy nefit bosch library dotnet client xmpp</PackageTags>
